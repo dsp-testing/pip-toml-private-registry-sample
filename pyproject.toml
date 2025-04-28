@@ -14,7 +14,7 @@ python = ">=3.8"
 [[tool.poetry.source]]
 name = "dependabot-pip"
 url = "https://jfrogghdemo.jfrog.io/artifactory/dependabot-pip"
-priority = "explicit"
+priority = "primary"
 
 [tool.bandit]
 exclude_dirs = [".venv", "dist"]
