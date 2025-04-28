@@ -13,8 +13,8 @@ python = ">=3.8"
 
 [[tool.poetry.source]]
 name = "dependabot-pip"
-url = "https://jfrogghdemo.jfrog.io/artifactory/dependabot-pip"
-priority = "primary"
+url = "https://thavaahariharangit@github.com:${secrets.JFROG_ARTIFACTORY_TOKEN}@jfrogghdemo.jfrog.io/artifactory/dependabot-pip"
+priority = "explicit"
 
 [build-system]
 requires = ["setuptools", "wheel"]
