@@ -17,5 +17,5 @@ url = "https://jfrogghdemo.jfrog.io/artifactory/dependabot-pip"
 priority = "primary"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
