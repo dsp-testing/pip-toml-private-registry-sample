@@ -8,7 +8,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-my-project = "0.1.0"
+my_project = "0.2dev"
 python = ">=3.8"
 
 [[tool.poetry.source]]
