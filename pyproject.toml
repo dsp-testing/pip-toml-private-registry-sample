@@ -1,11 +1,9 @@
 [tool.poetry]
-name = "example_project"
+name = "my_project"
 version = "0.1.0"
-description = "An example Python project."
+description = "My example pip toml project."
 authors = ["Harihran <thavaahariharangit@github.com>"]
-packages = [
-    { include = "example_project" }
-]
+packages = []
 
 [tool.poetry.dependencies]
 thavaahariharangit_project = "0.1.0"
